@@ -53,10 +53,11 @@
               <nav class="site-navigation text-center ml-auto" role="navigation" >
 
                 <ul class="site-menu main-menu js-clone-nav ml-auto d-none d-lg-block">
-                  <li><a href="#" class="nav-link">Inicio</a></li>
+                  <li><a href="#slides-section" class="nav-link">Inicio</a></li>
                   <li><a href="#about-section" class="nav-link">Tudo sobre o jejum</a></li>
                   <li><a href="#devocionais-section" class="nav-link">Devocionais</a></li>
                   <li><a href="#recursos-section" class="nav-link">Recursos</a></li>
+                  <li><a href="#pastores-section" class="nav-link">Pastores</a></li>
                   <li><a href="#juntar-section" class="nav-link">Junte-se a Nós</a></li>
                 </ul>
               </nav>
@@ -70,9 +71,9 @@
       
     </header>
     
-    <div class="owl-carousel slide-one-item">
+    <div class="owl-carousel slide-one-item" id="slides-section">
       <a href="#"><img src="{{ asset ('images/slider-1.jpg') }}" alt="Image" class="img-fluid"></a>
-      <a href="#"><img src="{{ asset ('images/hero_2.jpg') }}" alt="Image" class="img-fluid"></a>
+      <a href="#"><img src="{{ asset ('images/slider-2.jpg') }}" alt="Image" class="img-fluid"></a>
     </div>
     <div class="site-section bg-image overlay counter" style="background-image: {{ asset ('images/hero_1_no-text.jpg') }};" id="about-section">
       <div class="container">
@@ -705,6 +706,13 @@
 
     </div>
 
+    <div class="site-section align-content-center text-center" id="pastores-section">
+      <div class="col-12 text-center mb-5">
+        <h2 class="text-black section-title text-uppercase">Pastores</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/LXVzQiK2eQY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>
+    </div>
+
 
     <div class="site-section bg-light" id="juntar-section">
       <div class="container">
@@ -712,6 +720,7 @@
           <div class="col-12 text-center mb-5">
             <h2 class="text-black section-title text-uppercase">Junta-te a nós!</h2>
           </div>
+
         </div>
         <!-- Begin Mailchimp Signup Form -->
         <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
@@ -777,14 +786,16 @@
     </div>
 
 
+
+
     <footer class="site-footer">
       <div class="container">
         <div class="row">
           <div class="col-md-6">
             <div class="row">
               <div class="col-md-8">
-                <h2 class="footer-heading mb-4">About Us</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque facere laudantium magnam voluptatum autem. Amet aliquid nesciunt veritatis aliquam.</p>
+                <h2 class="footer-heading mb-4">Sobre</h2>
+                <p></p>
               </div>
               <div class="col-md-4 ml-auto">
                 <h2 class="footer-heading mb-4">Features</h2>
@@ -792,9 +803,9 @@
                   <li><a href="#">Inicio</a></li>
                   <li><a href="devocionais-section">Devocionais</a></li>
                   <li><a href="recurso-section">Recursos</a></li>
-                  <li><a href="#">Terms of Service</a></li>
-                  <li><a href="#">Privacy</a></li>
-                  <li><a href="#">Contact Us</a></li>
+                  <li><a href="#">Termos e  Condições/a></li>
+                  <li><a href="#">Privacidade</a></li>
+                  <li><a href="#">Entre em contacto</a></li>
                 </ul>
               </div>
               
@@ -804,15 +815,15 @@
 
             <div class="mb-5">
               <div class="mb-5">
-                <h2 class="footer-heading mb-4">Some Paragraph</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat nostrum libero iusto dolorum vero atque aliquid.</p>
+                <h2 class="footer-heading mb-4">Obrigado pela visita</h2>
+                <p>Agradecemos a sua visita, divulgue para chegarmos a mais pessoas</p>
               </div>
-              <h2 class="footer-heading mb-4">Subscribe to Newsletter</h2>
+              <h2 class="footer-heading mb-4">Receba todas as noticias</h2>
               <form action="#" method="post">
                 <div class="input-group mb-3">
-                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Enter Email" aria-label="Enter Email" aria-describedby="button-addon2">
+                  <input type="text" class="form-control border-secondary text-white bg-transparent" placeholder="Introduza o seu Email" aria-label="Introduza o seu Email" aria-describedby="button-addon2">
                   <div class="input-group-append">
-                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscribe</button>
+                    <button class="btn btn-primary text-white" type="button" id="button-addon2">Subscrever</button>
                   </div>
                 </div>
               </div>
