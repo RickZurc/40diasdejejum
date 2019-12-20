@@ -657,14 +657,15 @@ h1, h2, h3, h4, h5,
       padding: 10px 20px;
       display: block;
       position: relative;
-      color: #212529; }
+      color: #888888
+    }
       .site-mobile-menu .site-nav-wrap a:hover {
         color: #fd5f00; }
     .site-mobile-menu .site-nav-wrap li {
       position: relative;
       display: block; }
       .site-mobile-menu .site-nav-wrap li .nav-link.active {
-        color: #fd5f00; }
+        color: #fffdfe; }
     .site-mobile-menu .site-nav-wrap .arrow-collapse {
       position: absolute;
       right: 0px;
@@ -753,9 +754,9 @@ h1, h2, h3, h4, h5,
     .sticky-wrapper.is-sticky .site-navbar .site-logo a {
       color: #fd5f00; }
     .sticky-wrapper.is-sticky .site-navbar ul li a {
-      color: #000 !important; }
+      color: #888888 !important; }
       .sticky-wrapper.is-sticky .site-navbar ul li a.active {
-        color: #fd5f00 !important; }
+        color: #fffdfe !important; }
   .sticky-wrapper .shrink {
     padding-top: 0px !important;
     padding-bottom: 0px !important; }
