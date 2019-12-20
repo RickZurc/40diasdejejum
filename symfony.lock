@@ -75,6 +75,9 @@
     "doctrine/reflection": {
         "version": "v1.0.0"
     },
+    "drewm/mailchimp-api": {
+        "version": "v2.5.4"
+    },
     "easycorp/easy-log-handler": {
         "version": "1.0",
         "recipe": {
@@ -517,6 +520,9 @@
     },
     "webmozart/assert": {
         "version": "1.6.0"
+    },
+    "welp/mailchimp-bundle": {
+        "version": "1.3.1"
     },
     "zendframework/zend-code": {
         "version": "3.4.1"

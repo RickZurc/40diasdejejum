@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f0aa134c748f7bb4398f0b93f0f19bb9",
+    "content-hash": "f88840e9336f2addc5db7e5c7c16b2fe",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -1143,6 +1143,50 @@
                 "reflection"
             ],
             "time": "2018-06-14T14:45:07+00:00"
+        },
+        {
+            "name": "drewm/mailchimp-api",
+            "version": "v2.5.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drewm/mailchimp-api.git",
+                "reference": "c6cdfab4ca6ddbc3b260913470bd0a4a5cb84c7a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drewm/mailchimp-api/zipball/c6cdfab4ca6ddbc3b260913470bd0a4a5cb84c7a",
+                "reference": "c6cdfab4ca6ddbc3b260913470bd0a4a5cb84c7a",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.0.*",
+                "vlucas/phpdotenv": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DrewM\\MailChimp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Drew McLellan",
+                    "email": "drew.mclellan@gmail.com",
+                    "homepage": "http://allinthehead.com/"
+                }
+            ],
+            "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
+            "homepage": "https://github.com/drewm/mailchimp-api",
+            "time": "2019-08-06T09:24:58+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -5999,6 +6043,57 @@
                 "validate"
             ],
             "time": "2019-11-24T13:36:37+00:00"
+        },
+        {
+            "name": "welp/mailchimp-bundle",
+            "version": "1.3.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/welpdev/mailchimp-bundle.git",
+                "reference": "6065060750cf903b1d45865fdafa848bf70f6637"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/welpdev/mailchimp-bundle/zipball/6065060750cf903b1d45865fdafa848bf70f6637",
+                "reference": "6065060750cf903b1d45865fdafa848bf70f6637",
+                "shasum": ""
+            },
+            "require": {
+                "drewm/mailchimp-api": "2.5.*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpspec/phpspec": "~2@dev",
+                "phpunit/phpunit": "~5",
+                "symfony/symfony": ">=2.7"
+            },
+            "type": "symfony-bundle",
+            "autoload": {
+                "psr-4": {
+                    "Welp\\MailchimpBundle\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Titouan BENOIT",
+                    "email": "titouan@welp.today"
+                }
+            ],
+            "description": "MailChimp API V3 Symfony Bundle",
+            "homepage": "https://github.com/welpdev/mailchimp-bundle",
+            "keywords": [
+                "api",
+                "mailchimp",
+                "subscriber",
+                "symfony",
+                "user",
+                "v3"
+            ],
+            "time": "2019-10-21T06:33:33+00:00"
         },
         {
             "name": "zendframework/zend-code",
